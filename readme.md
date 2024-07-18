@@ -3,8 +3,8 @@
 * HTML
 * CSS
 * JavaScript
-* Font Awesome
 * Bootstrap 5.3
+* Bootstrap icons
 
 #### Recursos especiais
 
