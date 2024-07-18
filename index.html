@@ -24,7 +24,7 @@
             <div class="alert alert-light" role="alert">
                 <h4>Mensagem:</h4>
                 <p>Testo da mensagem ...</p>
-                <button id="clonse-message" type="button" class="btn btn-danger">
+                <button id="close-message" type="button" class="btn btn-danger">
                     Fechar
                 </button>
             </div>
@@ -53,7 +53,8 @@
         <form id="address-form">
             <div class="row mb-3">
                 <div class="form-floating col-lg-6 col-md-6 col-sm-12 mb-3 mb-sm-0">
-                    <input id="cep" name="cep" type="text" placeholder="digite seu cep" class="form-control shadow-none"
+                    <input 
+                        id="cep" name="cep" type="text" placeholder="digite seu cep" class="form-control shadow-none"
                         minlength="8" maxlength="8" required>
                     <label for="cep">Digite o seu CEP</label>
                 </div>
@@ -62,7 +63,8 @@
                         disabled
                         id="region" 
                         name="region" 
-                        type="text" 
+                        type="text"
+                        data-input
                         placeholder="digite seu cep" 
                         class="form-control shadow-none" 
                         minlength="8" maxlength="8" required>
